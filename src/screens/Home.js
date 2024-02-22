@@ -17,7 +17,7 @@ const Home = () => {
           alignItems: 'center',
         }}>
         <View>
-          <Text style={{fontSize: 25, fontWeight: 500}}>Instagram</Text>
+          <Text style={{fontSize: 25, fontWeight: '500'}}>Instagram</Text>
         </View>
         <View
           style={{
