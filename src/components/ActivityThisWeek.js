@@ -1,7 +1,7 @@
-import {View, Text, TouchableOpacity} from 'react-native';
-import React from 'react';
-import {FriendProfileData} from './Database';
 import {useNavigation} from '@react-navigation/native';
+import React from 'react';
+import {Text, TouchableOpacity, View} from 'react-native';
+import {FriendProfileData} from './Database';
 
 const ActivityThisWeek = () => {
   const navigation = useNavigation();
@@ -19,7 +19,7 @@ const ActivityThisWeek = () => {
                   profileImage: data.profileImage,
                   follow: data.follow,
                   post: data.posts,
-                  follower: data.followers,
+                  followers: data.followers,
                   following: data.following,
                 })
               }

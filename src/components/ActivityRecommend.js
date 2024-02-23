@@ -1,6 +1,6 @@
-import {View, Text, TouchableOpacity, Image} from 'react-native';
-import React, {useState} from 'react';
 import {useNavigation} from '@react-navigation/native';
+import React, {useState} from 'react';
+import {Image, Text, TouchableOpacity, View} from 'react-native';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 const ActivityRecommend = ({data}) => {
   const navigation = useNavigation();
@@ -23,7 +23,7 @@ const ActivityRecommend = ({data}) => {
                 profileImage: data.profileImage,
                 follow: data.follow,
                 post: data.posts,
-                follower: data.followers,
+                followers: data.followers,
                 following: data.following,
               })
             }

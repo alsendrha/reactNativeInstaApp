@@ -1,8 +1,8 @@
-import {Text, SafeAreaView, ScrollView} from 'react-native';
 import React from 'react';
-import ActivityThisWeek from '../components/ActivityThisWeek';
-import ActivityRecommend from '../components/ActivityRecommend';
+import {SafeAreaView, ScrollView, Text} from 'react-native';
 import ActivityPrevious from '../components/ActivityPrevious';
+import ActivityRecommend from '../components/ActivityRecommend';
+import ActivityThisWeek from '../components/ActivityThisWeek';
 import {FriendProfileData} from '../components/Database';
 
 const Activity = () => {
