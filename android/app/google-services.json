@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711061760305",
+    "project_id": "react-native-insta-app-m-e7814",
+    "storage_bucket": "react-native-insta-app-m-e7814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711061760305:android:512b6ac0d428ea1a206810",
+        "android_client_info": {
+          "package_name": "com.reactnativeinstaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa51AxQrdRoxCWSvzv-VCj3bcgn0iBJK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

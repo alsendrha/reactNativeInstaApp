@@ -1,11 +1,23 @@
-import {Text, StatusBar, View, ScrollView} from 'react-native';
-import React from 'react';
+import React, {useEffect} from 'react';
+import {ScrollView, StatusBar, Text, View} from 'react-native';
+import PushNotification from 'react-native-push-notification';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Feater from 'react-native-vector-icons/Feather';
-import Stories from '../components/Stories';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import Posts from '../components/Posts';
+import Stories from '../components/Stories';
 const Home = () => {
+  useEffect(() => {
+    createChannel();
+  }, []);
+
+  const createChannel = () => {
+    PushNotification.createChannel({
+      channelId: 'insta-channel',
+      channelName: 'Insta Channel',
+    });
+  };
+
   return (
     <SafeAreaView>
       <StatusBar backgroundColor="white" barStyle="dark-content" />

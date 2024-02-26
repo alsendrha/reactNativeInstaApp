@@ -41,6 +41,7 @@
 		5709B34CF0A7D63546082F79 /* Pods-ReactNativeInstaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeInstaApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeInstaApp/Pods-ReactNativeInstaApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeInstaApp-ReactNativeInstaAppTests/Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeInstaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeInstaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE2A9A12B887E5A00DAE11E /* ReactNativeInstaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ReactNativeInstaApp.entitlements; path = ReactNativeInstaApp/ReactNativeInstaApp.entitlements; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeInstaApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeInstaApp-ReactNativeInstaAppTests/Pods-ReactNativeInstaApp-ReactNativeInstaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* ReactNativeInstaApp */ = {
 			isa = PBXGroup;
 			children = (
+				7CE2A9A12B887E5A00DAE11E /* ReactNativeInstaApp.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -485,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeInstaApp/ReactNativeInstaApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativeInstaApp/Info.plist;
@@ -511,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ReactNativeInstaApp/ReactNativeInstaApp.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = ReactNativeInstaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
